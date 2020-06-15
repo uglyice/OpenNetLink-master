@@ -26,15 +26,7 @@ window.loadJavaScript = function() {
             scriptElement.src = "plugins/jquery-mapael/jquery.mapael.min.js";
             document.head.appendChild(scriptElement);
         }, 150);
-
-        setTimeout(function() {
-            var scriptElement=document.createElement('script');
-            scriptElement.type = 'text/javascript';
-            scriptElement.src = "plugins/jquery-mapael/maps/usa_states.min.js";
-            document.head.appendChild(scriptElement);
-        }, 150);
-        */
-
+         */
         setTimeout(function() {
             var scriptElement=document.createElement('script');
             scriptElement.type = 'text/javascript';

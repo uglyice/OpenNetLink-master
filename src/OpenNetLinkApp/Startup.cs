@@ -1,4 +1,5 @@
 using Microsoft.Extensions.DependencyInjection;
+using OpenNetLinkApp.Pages.Services;
 using WebWindows.Blazor;
 
 namespace OpenNetLinkApp
@@ -7,6 +8,7 @@ namespace OpenNetLinkApp
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSingleton<DragAndDropService>();
         }
 
         public void Configure(DesktopApplicationBuilder app)
